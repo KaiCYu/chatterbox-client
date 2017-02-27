@@ -88,3 +88,15 @@ form input[type=text] {
     background-color: #0090da;
 }
 
+.messageBox {
+    border: 5px solid red;
+
+}
+
+.username {
+  border: 3px solid blue;
+}
+
+.message {
+  border: 3px solid purple;
+}
