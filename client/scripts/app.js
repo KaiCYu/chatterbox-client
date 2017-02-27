@@ -152,7 +152,7 @@ app.checkString = function (messageElement) {
     }
   }
   return messageElement;
-}
+};
 
 app.renderMessage = function (message) {
   // $('#chats').append('<p>' + message + '</p>');
@@ -183,7 +183,7 @@ app.renderAllRooms = function () {
   for (var room in app.rooms) {
     app.renderRoom(room);
   }
-}
+};
 
 app.handleUsernameClick = function () {
   if (!!app.friends[$(this)[0].text]) {
