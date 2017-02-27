@@ -21,7 +21,6 @@
     </script>
     <!-- your scripts -->
     <script src="env/config.js"></script>
-    <script src="scripts/app.js"></script>
   </head>
   <body>
     <div id="main">
@@ -40,7 +39,38 @@
         </div>
 
 
+
+        <select class="roomSelect">
+          <option>all</option>
+          <option>Lobby</option>
+        </select>
+
+        <input type="text" class="roomName" name="roomName">
+        <input type="button" class="newRoom" name="newRoom" value="+">
+        <input type="button" class="addTab" name="addTab" value="addTab">
+
+      <div id="send">
+        <!-- <form class="submit"> -->
+          message: <br>
+          <input type="text" class="message"> <br>
+          <input type="submit" class="submit" value="submit"> <br>
+
+        <!-- </form> -->
+      </div>
     </div>
-    <div id="chats"></div>
+
+    <section>
+      <aside class="tabs" >
+        <div value="all" name="all">ALL</div>
+      </aside>
+      <div id="chats">
+          <!-- want our tabs in here -->
+      </div>
+
+    </section>
+
   </body>
+  <script src="scripts/app.js"></script>
+
+
 </html>
